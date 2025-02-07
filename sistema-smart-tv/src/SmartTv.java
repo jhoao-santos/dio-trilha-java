@@ -3,6 +3,15 @@ public class SmartTv {
     int canal = 1;
     int volume = 10;
 
+    public void aumentarVolume() {
+        volume++;
+    }
+
+    public void diminuiVolume() {
+        volume--;
+    }
+
+
 
 
     public void ligar() {
